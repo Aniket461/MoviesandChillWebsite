@@ -1,0 +1,36 @@
+#movies img, #movie img{
+    width:80%;
+    margin-left: 10%;
+}
+.navbar{
+    margin-bottom: 30px;
+}
+
+#movies .col-md-3 .well {
+   margin-bottom: 50px;
+   
+}
+.navbar-brand{
+    font-size: 30px;
+}
+
+@media(min-width:760px){
+
+    #movies img, #movie img{
+        width:100%;
+        margin-left: 0%;
+    }
+    .navbar-brand{
+        font-size: 50px;
+    }
+    
+    #movies .col-md-3 .well {
+        height: 410px;
+       
+    }
+    
+    #movies .col-md-3 img{
+        height: 300px;
+    }
+
+}
